@@ -1,94 +1,71 @@
-/* Common Styles */
-body {
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.btn-primary {
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-}
-
-.nav-title {
-    font-weight: 800;
-    font-size: 45px;
-    color: black;
-}
-
-.orange-text {
-    color: orange;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    margin: 0 200px;
-}
-
-nav>ul {
-    display: flex;
-    align-items: center;
-}
-
-nav li {
-    list-style: none;
-    margin-right: 50px;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--dark-02, #474747);
-
-}
-
-.header{
-    background-color: antiquewhite;
+/* Header Section */
+header{
+    background-color:antiquewhite;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-size: contain;
+    background-position: right bottom;
 }
-.banner{
-    padding: 30px 30px 0px 150px;
+
+/* Nav Section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav > ul{
     display: flex;
     align-items: center;
+}
+nav li{
+    margin-right: 40px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Header Banner */
+.banner{
+    display: flex;
     justify-content: space-between;
-}
-.banner .profile-pic{
-    width: 500px;
-}
-.banner-welcome{
-    font-size: 45px;
-    font-weight: 400;
-    margin-bottom: 0px;
-}
-.banner-title{
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-size: 85px;
-    font-weight: 700;
-}
-.banner-description{
-    margin-bottom: 30px;
+    align-items: center;
+    padding: 0 200px;
 }
 .banner-content{
-    max-width: 500px;
+    padding: 0 50px 0 0;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner-description{
+    margin-bottom: 10px;
+}
+.banner-image{
+    width: 400px;
 }
 
-/* about */
 
-.about{
-    background-color: antiquewhite;
-    margin: 150px 0;
-    padding: 200px;
-    text-align: center;
+
+/* Primary Button */
+.btn-primary{
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    font-weight: bold;
 }
-.section-title{
-    font-weight: 700;
-    font-size: 50px;
+
+/* Single Colors */
+.text-crimson{
+    color: crimson;
 }
