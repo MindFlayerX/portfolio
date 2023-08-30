@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Header Section */
 header{
     background-color:antiquewhite;
@@ -53,7 +57,33 @@ nav a{
     width: 400px;
 }
 
-
+/* About Section */
+.about{
+    text-align: center;
+    margin: 20px 200px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 100px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 20px;
+    text-align: justify;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    font-size: 20px;
+}
+.about-info-description{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /* Primary Button */
 .btn-primary{
